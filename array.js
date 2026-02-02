@@ -55,6 +55,15 @@ else {
 
 // Print a message to the console indicating whether each variable is an array or not.
 // ****************************************************************answer******************************************
+let value = [1, 2, 3, "Name"]
+let ar = Array.isArray(value)
+if (ar === true) {
+    console.log("This is an array")
+}
+else {
+    console.log("No this is Not an array")
+}
+
 
 // ****************************************************************answer******************************************
 // 5. Combining Arrays
